@@ -15,5 +15,5 @@ services:
             - 443:443
             - 3024:3024/udp
             - 3025:3025
-            - 53:53/udp
+            - 5353:53/udp
          restart: unless-stopped
